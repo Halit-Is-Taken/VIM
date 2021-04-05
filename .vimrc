@@ -34,4 +34,4 @@ function Gist()
   let current_file = expand('%:p') 
   let l:Command = "gist -o " . current_file . " -f " . name
   execute "!" . l:Command
-e
+endfunction
